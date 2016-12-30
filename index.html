@@ -1,322 +1,205 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html >
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Roberto Hernandez" content="width=device-width, initial-scale=1">
-    <meta name="personal page" content="">
-    <meta name="by Roberto Hernandez" content="">
 
-    <title>Roberto Hernandez</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/agency.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Roberto Hernandez</title>
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
-<body id="page-top" class="index">
+<body>
+  <!-- Header Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Roberto Hernandez</a>
-            </div>
+<header id="header">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Works</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+  <canvas id="canvas"></canvas>
+
+  <div class="main_nav">
+    <div class="container">
+      <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
+      <nav>
+        <ul>
+          <li><a class="smoothscroll" href="#header">Home</a></li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+          <li><a class="smoothscroll" href="#skills">Services</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Work</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="title">
+    <div class="smallsep heading"></div>
+    <h1 class="heading">Roberto Hernandez</h1>
+    <h2 class="heading">A New Hope Among Us</h2>
+  </div>
+</header>
+
+<!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section id="about">
+  <canvas id="c"></canvas>
+  <div class="container">
+    <div class="row">
+      <h1>Who's This?</h1>
+      <div class="block"></div>
+      <img class="img-circle" src="https://s-media-cache-ak0.pinimg.com/originals/cb/29/88/cb29888047e161054cd0182ee40731c2.png">
+      <p> Hey, Im Roberto, I do many things (not like that). You can say Im a developer, graphic designer, artist and do other tech stuff. I graduated from Southern Methodist University in 2016 and now working at a bank. I can create anything from websites, apps, games, logos and can fix your phone/computer issues... sometimes. Have buisness and no website? Want to digitize your art? Need to findout what your babydaddy doing? Wonder what someones password is? Got an app idea? I got you. Check out some of my work!</p>
+    </div>
+
+    <div class="row">
+      <div class="eight columns">
+        <div class="progressBar">
+          <h4>HTML & JS</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-90"></div>
+          </div>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">"Create yourself"</div>
-                <div class="intro-heading">Roberto Hernandez</div>
-            </div>
+        <div class="progressBar">
+          <h4>Mobile Dev (Java & Swift)</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-80"></div>
+          </div>
         </div>
-    </header>
-
-    <!-- About Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                </div>
-            </div>
-                <div class="team-member">
-                    <img src="https://lh5.googleusercontent.com/-Vl2CyZw-7vU/AAAAAAAAAAI/AAAAAAAAACA/FIJBoke5q4c/photo.jpg" class="img-responsive img-circle" alt="">
-                    <h4>Roberto Hernandez</h4>
-                    <p class="text-muted">Southern Methodist University 16'<br />Entrepeneuer - Designer - Artist - Hacker</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Dallas born and raised. Love to develop solutions and make things look nice. Check it out.</p>
-                </div>
-            </div>
+        <div class="progressBar">
+          <h4>Python</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-60"></div>
+          </div>
         </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">I do what I love, hopefully we have something in common.</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Graphic Design</h4>
-                    <p class="text-muted">Let me know what you have in mind. Have a design in mind? I can make anything from logos, art pieces, brochuers, watermarks, app logos, flyers, posters and buisness cards etc. Lets <em>taco</em> bout it.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Design</h4>
-                    <p class="text-muted">Need a website for your new buisness or just want to have a presence in the internet? Let me know. We can make that happen and create beautiful sites.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Apps</h4>
-                    <p class="text-muted">If you have a great app idea but don't know where to start, we can think it out. Having experience in creating native applications for iOS and Android, I can help.</p>
-                </div>
-            </div>
+        <div class="progressBar">
+          <h4>Ruby</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-70"></div>
+          </div>
         </div>
-    </section>
+        <div class="progressBar">
+          <h4>Security (Software)</h4>
+          <div class="progressBarContainer">
+            <div class="progressBarValue value-50"></div>
+          </div>
+        </div>        
+      </div>
+      <div class="four columns">
+        <p>Im getting better at these skills, my goal is to make a tech company that tackles the problems of the world (no im not drunk while writing this, I got big dreams lol)</p>
+      </div>
+    </div>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Works</h2>
-                    <h3 class="section-subheading text-muted">Check out these bad boys.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>SMU Tower Center Progrmas</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Terminal Style Dashboard</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>iChoos</h4>
-                        <p class="text-muted">iOS App</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>DasBier</h4>
-                        <p class="text-muted">Android App</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Spaceway</h4>
-                        <p class="text-muted">Video Game</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>RobVirus</h4>
-                        <p class="text-muted">Web Security</p>
-                    </div>
-                </div>
-            </div>
+  </div>
+</section>
+
+<!-- Skills Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section id="skills">
+  <div class="container">
+    <h1>Services</h1>
+    <div class="block"></div>
+    <div class="row">
+      <div class="one-third column">
+        <h3>Design</h3>
+        <p>I like for things to look good, like me, so I got you. Everything I make looks good, well at least decent lol. Photoshop and Illustrator skills on deck, shieee.. I have a clothing line I know color combinations, symmetry, arty stuff, what the people like.</p>
+      </div>
+      <div class="one-third column">
+        <h3>Development</h3>
+        <p>This is pretty broad. I can develop apps for iphone and android, perhaps other platforms too but my expertise continues in these big players. Can also develop scripts to automate work maybe, or make hardware work. Just hit me up with anything Im sure I can think of something.</p>
+      </div>
+      <div class="one-third column">
+        <h3>Hacking</h3>
+        <p>This is illegal! But everything has a price, oh well. Can't get into details but this skills may allow for things can be attainable ;).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section id="portfolio">
+  <div class="container">
+    <h1>Work</h1>
+    <div class="block"></div>
+    <div class="row">
+      <div class="three columns"> <img src="img/loteria.jpg" class="image" alt="Spaceway"/></div>
+      <div class="three columns"> <img src="img/ic.jpg" class="image" alt="iChoos"/></div>
+      <div class="three columns"> <img src="img/hack.png" class="image" alt="DasBier"/></div>
+      <div class="three columns"> <img src="img/space.jpg" class="image" alt="SmartDrop"/></div>
+    </div>
+    <div class="row" style="margin-top: 30px;">
+      <div class="three columns"> <img src="img/3k.jpg" class="image" alt="KeyLogger"/></div>
+      <div class="three columns"> <img src="img/jarvis.png" class="image" alt="3 Kings"/></div>
+      <div class="three columns"> <img src="img/myo.jpg" class="image" alt="MyoSonus"/></div>
+      <div class="three columns"> <img src="img/robox.png" class="image" alt="MXB"/></div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section id="testimonial">  
+
+<img class="astronaut" src="http://www.abeka.com/BookImages/ClipArt/214523/150x150y160fx160fh-w/214523-Astronaut-color-png.png" />
+
+
+</section>
+
+<!-- Contact Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section id="contact">
+  <div class="container">
+    <h1>Contact</h1>
+    <div class="block"></div>
+    <form>
+      <div class="row">
+        <div class="six columns">
+          <label for="exampleRecipientInput">Name</label>
+          <input class="u-full-width" type="text">
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
-                    <h3 class="section-subheading text-muted">Now that you know what I am about, hopefully we can make something happen.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="six columns">
+          <label for="exampleEmailInput">Email</label>
+          <input class="u-full-width" type="email">
         </div>
-    </section>
+      </div>
+      <div class="row">
+        <label for="exampleMessage">Message</label>
+        <textarea class="u-full-width"></textarea>
+        <input class="button-primary" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Roberto Hernandez 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+<!-- Footer Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+<footer>
+  <div class="container">
+    <div class="nine columns">
+      <p>Let's change the world.</p>
+    </div>
+    <div class="three columns"> <a href="facebook.com"><span class="typcn typcn-social-facebook-circular socialIcons"></span><a href="https://www.instagram.com/robdez_x/"> <span class="typcn typcn-social-instagram-circular socialIcons"></span><a href="https://twitter.com/beto_gunslinger"> <span class="typcn typcn-social-twitter-circular socialIcons"></span><a href="https://www.linkedin.com/in/roberto-hernandez-67144856"> <span class="typcn typcn-social-linkedin-circular socialIcons"></span> </div>
+  </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js'></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/anim.js"></script>
 
 </body>
-
 </html>
